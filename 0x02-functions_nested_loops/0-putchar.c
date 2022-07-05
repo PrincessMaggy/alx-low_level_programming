@@ -2,7 +2,7 @@
 /**
 * main- print _putchar followed by a new line.
 * Description: no standard libraries.
-* return: 0
+* Return: 0
 */
 int main(void)
 {
