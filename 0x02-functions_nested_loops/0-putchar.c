@@ -1,10 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-*/*
-* This is the main function
-* Description: it prints out putchar
+#include <printer.h>
+/**
+* main- print _putchar followed by a new line.
+* Description: no standard libraries.
 */
-	int main(){
-		printf("_putchar");
-		return(0);
+int main(void)
+{
+	char printer[] = "_putchar";
+	int i = 0;
+
+	while (printer[i] != '\0')
+	{
+		_putchar("printer[i]");
+		i++;
 	}
+	_putchar('\n');
+
+	return (0);
+}
