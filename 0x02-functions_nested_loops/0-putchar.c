@@ -10,7 +10,7 @@ int main(void)
 
 	while (printer[i] != '\0')
 	{
-		_putchar("printer[i]");
+		_putchar(printer[i]);
 		i++;
 	}
 	_putchar('\n');
