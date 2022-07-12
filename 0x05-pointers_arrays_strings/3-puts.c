@@ -1,10 +1,9 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
- * _puts - prints a string to std out
- * @str: input string
- * Return: no value
+ * _puts - prints a string, followed by a new line.
+ * @str: input string.
+ * Return: no return.
  */
 void _puts(char *str)
 {
